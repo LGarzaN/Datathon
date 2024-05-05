@@ -6,7 +6,7 @@
 
 # Análisis de Tweets con Machine Learning
 
-Este repositorio contiene un script de Python para el análisis y clasificación de tweets en categorías predefinidas utilizando procesamiento de lenguaje natural y machine learning.
+Este repositorio contiene distintos scripts de Python para el análisis y clasificación de tweets en categorías predefinidas utilizando procesamiento de lenguaje natural y machine learning.
 
 ## Descripción
 
