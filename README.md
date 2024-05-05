@@ -5,26 +5,26 @@
 4. .
 
 # Análisis de Tweets con Machine Learning
+
 Este repositorio contiene un script de Python para el análisis y clasificación de tweets en categorías predefinidas utilizando procesamiento de lenguaje natural y machine learning.
 
-# Descripción
-El script analyze_tweets.py automatiza la clasificación de tweets en español en diversas categorías basadas en su contenido. Utiliza un modelo de lenguaje de spaCy para el preprocesamiento de los textos, vectorización TF-IDF para la transformación de los datos, y un clasificador de Máquina de Soporte Vectorial (SVM) para la predicción de categorías.
+## Descripción
 
-# Requisitos
+El script `analyze_tweets.py` automatiza la clasificación de tweets en español en diversas categorías basadas en su contenido. Utiliza un modelo de lenguaje de spaCy para el preprocesamiento de los textos, vectorización TF-IDF para la transformación de los datos, y un clasificador de Máquina de Soporte Vectorial (SVM) para la predicción de categorías.
+
+## Requisitos
+
 Antes de ejecutar el script, asegúrate de tener instalado Python y las siguientes bibliotecas:
-pandas
-scikit-learn
-spaCy
-NumPy
-SciPy
-nlpaug
-Para instalar spaCy y descargar el modelo de lenguaje español, ejecuta:
-```python
-pip install spacy
-python -m spacy download es_core_news_sm
-```
-```python
-pip install spacy
-python -m spacy download es_core_news_sm
-```
 
+- pandas
+- scikit-learn
+- spaCy
+- NumPy
+- SciPy
+- nlpaug
+
+Para instalar spaCy y descargar el modelo de lenguaje español, ejecuta:
+
+```bash
+pip install spacy
+python -m spacy download es_core_news_sm
