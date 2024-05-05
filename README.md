@@ -24,7 +24,13 @@ Antes de ejecutar el script, asegúrate de tener instalado Python y las siguient
 - nlpaug
 
 Para instalar spaCy y descargar el modelo de lenguaje español, ejecuta:
-
 ```bash
 pip install spacy
 python -m spacy download es_core_news_sm
+```
+Para instalar las demás dependencias, puedes usar:
+```bash
+pip install pandas scikit-learn numpy scipy nlpaug
+```
+
+
