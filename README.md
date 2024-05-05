@@ -1,9 +1,3 @@
-# Equipo Palomas
-1. Juan Pablo Chavez A01721844
-2. Luis Eduardo Garza Naranjo A01721881
-3. Ernesto Garza Balderas A01721663
-4. Arnau Muro Cors A00832818
-
 # Análisis de Tweets con Machine Learning
 
 Este repositorio contiene 2 scripts de Python para el análisis y clasificación de tweets en categorías predefinidas utilizando procesamiento de lenguaje natural y machine learning y para la clasificación de sentimientos.
@@ -45,4 +39,8 @@ Para instalar las demás dependencias, puedes usar:
 pip install pandas scikit-learn numpy scipy nlpaug
 ```
 
-
+# Nuestro Equipo
+1. Juan Pablo Chavez - jp.chavezm@hotmail.com
+2. Luis Eduardo Garza Naranjo - A01721881@gmail.com
+3. Ernesto Garza Balderas - A01721663@tec.mx
+4. Arnau Muro Cors A00832818@tec.mx
