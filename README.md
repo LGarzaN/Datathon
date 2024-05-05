@@ -22,7 +22,7 @@ El script `MLmodel.ipynb` entrena un modelo SVC lineal para clasificar Tweets en
 - Comentario Neutral
 - Promociones
 
-Tambien se puede encontrar en [Google Colab](https://colab.research.google.com/drive/1kb4KKI_zuH_A40VQxeqV3VmbrkWPd7YQ?usp=sharing)
+Tambien se puede encontrar en [Google Colab](https://colab.research.google.com/drive/1j835dwpmS1lt2ihxUaMa4weTxUDMqT_n?usp=sharing)
 
 ## Librerias utilizadas
 
