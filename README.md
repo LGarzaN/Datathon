@@ -10,7 +10,7 @@ Este repositorio contiene 2 scripts de Python para el análisis y clasificación
 
 ## Descripción
 
-El script `sentiment_analysis.ipynb` utiliza un Modelo pre-entrenado de Hugging Face llamado (distilbert-base-multilingual-cased-sentiments-studen)[https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student?] para descifrar el sentimiento detrás del Tweet, y da una probabilidad para las categorías positivo, negativo, y neutral.
+El script `sentiment_analysis.ipynb` utiliza un Modelo pre-entrenado de Hugging Face llamado [distilbert-base-multilingual-cased-sentiments-student](https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student?) para descifrar el sentimiento detrás del Tweet, y da una probabilidad para las categorías positivo, negativo, y neutral. Tambien se puede encontrar en [Google Colab](https://colab.research.google.com/drive/1kb4KKI_zuH_A40VQxeqV3VmbrkWPd7YQ?usp=sharing)
 
 El script `MLmodel.ipynb` entrena un modelo SVC lineal para clasificar Tweets en alguna de las siguientes categorías:
 
@@ -21,6 +21,8 @@ El script `MLmodel.ipynb` entrena un modelo SVC lineal para clasificar Tweets en
 - Caso Resuelto
 - Comentario Neutral
 - Promociones
+
+Tambien se puede encontrar en [Google Colab](https://colab.research.google.com/drive/1kb4KKI_zuH_A40VQxeqV3VmbrkWPd7YQ?usp=sharing)
 
 ## Librerias utilizadas
 
