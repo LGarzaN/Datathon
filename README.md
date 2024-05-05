@@ -1,10 +1,12 @@
 # Análisis de Tweets con Machine Learning
 
-Este repositorio contiene 2 scripts de Python para el análisis y clasificación de tweets en categorías predefinidas utilizando procesamiento de lenguaje natural y machine learning y para la clasificación de sentimientos.
+Se pretende analizar y clasificar comentarios sobre hey banco en la plataforma X (anteriormente conocida como Twitter), empleando tecnologías como modelos SVC supervisados, procesamiento de lenguaje natural (NLP), y vectorización de tweets.
 
 ## Descripción
 
-El script `sentiment_analysis.ipynb` utiliza un Modelo pre-entrenado de Hugging Face llamado [distilbert-base-multilingual-cased-sentiments-student](https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student?) para descifrar el sentimiento detrás del Tweet, y da una probabilidad para las categorías positivo, negativo, y neutral. Tambien se puede encontrar en [Google Colab](https://colab.research.google.com/drive/1kb4KKI_zuH_A40VQxeqV3VmbrkWPd7YQ?usp=sharing)
+Este repositorio contiene 2 scripts de Python para el análisis y clasificación de tweets que implementan diferentes modelos de IA.
+
+El script `sentiment_analysis.ipynb` utiliza un Modelo pre-entrenado de Hugging Face llamado [distilbert-base-multilingual-cased-sentiments-student](https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student?) para descifrar el sentimiento detrás del Tweet, y da una probabilidad para las categorías positivo, negativo, y neutral. El script tambien se puede encontrar en [Google Colab](https://colab.research.google.com/drive/1kb4KKI_zuH_A40VQxeqV3VmbrkWPd7YQ?usp=sharing)
 
 El script `MLmodel.ipynb` entrena un modelo SVC lineal para clasificar Tweets en alguna de las siguientes categorías:
 
