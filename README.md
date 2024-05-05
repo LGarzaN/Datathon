@@ -1,18 +1,28 @@
 # Equipo Palomas
 1. Juan Pablo Chavez A01721844
-2. .
-3. .
-4. .
+2. Luis Eduardo Garza Naranjo A01721881
+3. Ernesto Garza Balderas A01721663
+4. Arnau Muro Cors A00832818
 
 # Análisis de Tweets con Machine Learning
 
-Este repositorio contiene distintos scripts de Python para el análisis y clasificación de tweets en categorías predefinidas utilizando procesamiento de lenguaje natural y machine learning.
+Este repositorio contiene 2 scripts de Python para el análisis y clasificación de tweets en categorías predefinidas utilizando procesamiento de lenguaje natural y machine learning y para la clasificación de sentimientos.
 
 ## Descripción
 
-El script `analyze_tweets.py` automatiza la clasificación de tweets en español en diversas categorías basadas en su contenido. Utiliza un modelo de lenguaje de spaCy para el preprocesamiento de los textos, vectorización TF-IDF para la transformación de los datos, y un clasificador de Máquina de Soporte Vectorial (SVM) para la predicción de categorías.
+El script `sentiment_analysis.ipynb` utiliza un Modelo pre-entrenado de Hugging Face llamado (distilbert-base-multilingual-cased-sentiments-studen)[https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student?] para descifrar el sentimiento detrás del Tweet, y da una probabilidad para las categorías positivo, negativo, y neutral.
 
-## Requisitos
+El script `MLmodel.ipynb` entrena un modelo SVC lineal para clasificar Tweets en alguna de las siguientes categorías:
+
+- Agradecimiento
+- Solicitud de Apoyo
+- Comentario Positivo
+- Comentario Negativo
+- Caso Resuelto
+- Comentario Neutral
+- Promociones
+
+## Librerias utilizadas
 
 Antes de ejecutar el script, asegúrate de tener instalado Python y las siguientes bibliotecas:
 
